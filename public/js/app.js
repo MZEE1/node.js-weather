@@ -11,7 +11,7 @@ form.addEventListener('submit', (e) => {
     update1.textContent = 'Loading ..'
     update2.textContent = ''
 
-    fetch('http://localhost:3000/weather?address=' + location + '').then((response) => {
+    fetch('/weather?address=' + location + '').then((response) => {
         response.json().then((data) => {
             if (data.error) {
                 update1.textContent = data.error
