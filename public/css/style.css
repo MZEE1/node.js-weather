@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    line-height: 1.7;
+    font-family: 'Concert One', cursive;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.your-location {
+    margin: 2rem 0;
+}
+
+input {
+    padding: .5rem;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1.2rem;
+}
+
+button {
+    padding: .5rem;
+    border: 1px solid darkblue;
+    background: darkblue;
+    color: whitesmoke;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+form {
+    margin-bottom: 2rem;
+}
+
